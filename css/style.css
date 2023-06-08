@@ -1,3 +1,15 @@
+@media only scream and (max-width: 	600px){
+	.header-wrapper{
+		flex-direction: column;
+	}
+	.nav-bar{
+		width: 100%;
+		flex-direction: column;
+	}
+	.logo{
+		margin-bottom: 16px;
+	}
+}
 header{
 	display: flex;
 	justify-content: space-between;
@@ -24,7 +36,7 @@ header{
 	border-right: none;
 }
 .hero{
-	height: 550px;
+	width: 100%;
 	/*background-image: url('../assets/revoU-hero.jpeg');*/
 	background-repeat: no-repeat;
 	object-fit: contain;
