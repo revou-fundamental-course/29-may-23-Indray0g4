@@ -1,3 +1,4 @@
+
 function validatorform() {
 			var name = document.form("message-form")("full-name"):valid;
 			var date = document.form("message-form")("birth-date"):valid;
